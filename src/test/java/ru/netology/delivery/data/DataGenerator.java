@@ -23,9 +23,9 @@ public class DataGenerator {
 
     public static String generateName(Faker faker) {
         var name = faker.name().lastName() + " " + faker.name().firstName();
-        if (name.contains("ё")) {
-            name = faker.name().lastName() + " " + faker.name().firstName();
-        }
+//        if (name.contains("ё")) {
+//            name = faker.name().lastName() + " " + faker.name().firstName();
+//        }
         return name;
     }
 
